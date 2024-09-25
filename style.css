@@ -1,87 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', Arial, sans-serif;
 }
-
 body {
     background-color: #f4f4f4;
     padding: 20px;
+    margin: 30px auto;
 }
-
-.input-container {
+.input-container{
     width: 700px;
     background-color: white;
     padding: 35px;
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-.input-container .inputTitle {
+}
+.input-container .inputTitle{
     text-align: center;
     font-size: 44px;
     margin-bottom: 40px;
 }
-
-.inputInfo {
+.inputInfo{
+   /* border: 2px solid black;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
-
-.inputInfo .divName {
+.inputInfo .divName{
+   
     height: 90px;
+    /*border: 2px solid black;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+   
 }
-
-.divName .lblName {
+.divName .lblName{
     font-size: 30px;
     display: block;
     font-weight: 500;
+   
+    
+   
 }
-
-.divName .inputName {
-    height: 40px;
-    width: 77%;
+.divName .inputName{
+    height: 100%;
+    width: 77.1%;
     margin-left: 2px;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
+    
 }
-
-.inputInfo .submit {
+.inputProfile{
+    height: 100%;
+    
+}
+.inputInfo .submit{
     width: 180px;
-    height: 50px;
+    height: 70px;
     text-align: center;
     margin: 20px auto;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     background-color: royalblue;
     color: #fff;
     border: none;
     outline: none;
-    cursor: pointer;
 }
 
-.another {
+.another{
     width: 250px;
-    height: 60px;
+    padding: 10px;
+    height: 100px;
     text-align: center;
     margin: 20px auto;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     background-color: royalblue;
     color: #fff;
     border: none;
     outline: none;
     display: none;
+   
 }
+.pdf{
+    width: 250px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    display: none;
 
-.resume-container {
+}
+.resume-container{
     display: none;
     width: 850px;
     background-color: white;
@@ -89,37 +111,35 @@ body {
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.info {
+.info{
+    /*border: 2px solid black;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
-
-.info .title {
+.info .title{
     text-align: center;
     font-size: 44px;
     margin-bottom: 5px;
 }
-
-.info .infoDet {
+.info .infoDet{
     font-size: 22px;
     color: #555;
     text-align: center;
     margin-top: 10px;
+    
 }
-
-.info .details h2 {
+.info .details h2{
     font-size: 32px;
     color: royalblue;
     margin-bottom: 10px;
 }
+.info .details{
+    margin-top:35px;
 
-.info .details {
-    margin-top: 35px;
 }
-
-.info .details .pDet {
+.info .details .pDet{
     text-align: justify;
     font-size: 17px;
     line-height: 25px;
